@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="instrumentor" default="jar" basedir=".">
+
+	<target name="jar">
+  <jar destfile="instrumentor.jar" manifest="META-INF/MANIFEST.MF">
+     <fileset dir="bin" includes="com/mhae/transformer/**" /> 
+  </jar>
+	</target>
+</project>
